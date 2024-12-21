@@ -8,8 +8,6 @@ const AuthLinks = () => {
   const [open, setOpen] = useState(false);
 
   const { status } = useSession();
-  // let status = "unauthenticated";
-  // let signOut = () => {};
   return (
     <>
       {status === "unauthenticated" ? (
