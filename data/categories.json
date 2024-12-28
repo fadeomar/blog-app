@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cm4y5o1lw0000ccksx3b99oo3",
+    "slug": "fashion",
+    "title": "fashion",
+    "img": "/fashion.png"
+  },
+  {
+    "id": "cm4y5qr370001ccksgcau647p",
+    "slug": "style",
+    "title": "style",
+    "img": "/style.png"
+  },
+  {
+    "id": "cm4y5qr380002cckszvvjj0mt",
+    "slug": "food",
+    "title": "food",
+    "img": "/food.png"
+  },
+  {
+    "id": "cm4y5qr390003ccksomm9wran",
+    "slug": "travel",
+    "title": "travel",
+    "img": "/travel.png"
+  },
+  {
+    "id": "cm4y5qr3a0004cckswvxyqrd8",
+    "slug": "coding",
+    "title": "coding",
+    "img": "/coding.png"
+  },
+  {
+    "id": "cm4y5qr3b0005ccksr2w9qun9",
+    "slug": "culture",
+    "title": "culture",
+    "img": "/culture.png"
+  }
+]
