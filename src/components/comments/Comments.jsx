@@ -23,14 +23,14 @@ const fetcher = async (url) => {
 const Comments = ({ postSlug }) => {
   const { status } = useSession();
 
-  // const { data, mutate, isLoading } = useSWR(
-  //   `http://localhost:3000/api/comments?postSlug=${postSlug}`,
-  //   fetcher
-  // );
+  const { data, mutate, isLoading } = useSWR(
+    `http://localhost:3000/api/comments?postSlug=${postSlug}`,
+    fetcher
+  );
 
-  const data = [];
-  const mutate = () => {};
-  const isLoading = false;
+  // const data = [];
+  // const mutate = () => {};
+  // const isLoading = false;
 
   const [desc, setDesc] = useState("");
 
