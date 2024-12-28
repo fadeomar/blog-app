@@ -1,10 +1,12 @@
-import prisma from "@/utils/connect";
+// import prisma from "@/utils/connect";
 import { NextResponse } from "next/server";
+
+import database from "@/utils/database";
 
 export const GET = async () => {
   try {
-    const categories = await prisma.category.findMany();
-
+    // const categories = await prisma.category.findMany();
+    const categories = database.readAll();
     return new NextResponse(JSON.stringify(categories, { status: 200 }));
   } catch (err) {
     console.log(err);

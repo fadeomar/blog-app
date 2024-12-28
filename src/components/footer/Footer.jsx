@@ -4,12 +4,20 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+  // const { data, status } = useSession();
+
   return (
     <div className={styles.container}>
       <div className={styles.info}>
         <div className={styles.logo}>
-          <Image src="/logo.png" alt="lama blog" width={50} height={50} />
-          <h1 className={styles.logoText}>Lamablog</h1>
+          <Image
+            src="https://lh3.googleusercontent.com/a/ACg8ocKrV8o1p7DeNoQz6Ppb32VNbnaFWZGsOclhGCdOVsfJZASbLdU=s96-c"
+            alt="Fadi blog"
+            width={50}
+            height={50}
+            style={{ borderRadius: "50%" }}
+          />
+          <h1 className={styles.logoText}>Fadi-blog</h1>
         </div>
         <p className={styles.desc}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
